@@ -92,7 +92,7 @@ describe('lb4 import-lb3-models', function () {
         }),
     ).to.be.rejectedWith(
       'Unknown model name ModelDoesNotExist. Available models: Application, ' +
-        'AccessToken, User, RoleMapping, Role, ACL, Scope, CoffeeShop.',
+        'AccessToken, User, RoleMapping, Role, ACL, Scope, UserBase, Customer, CoffeeShop.',
     );
   });
 
